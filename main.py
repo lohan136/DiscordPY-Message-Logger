@@ -18,6 +18,7 @@ async def on_message(message):
     st = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
     with open("logs.txt", "a") as text_file:
         print(f"[{st}] [{message.author.id}] {message.author} {message.content}", file=text_file)
-    
+
+# Made By YesYes#5346 Please Don't Steal My Code Or Claim It As Your Own
 
 client.run('changeme')
